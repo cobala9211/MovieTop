@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.asiantech.topmovies">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".MoviesApp"
         android:allowBackup="true"
@@ -18,10 +20,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.main.MainActivity" />
-        <activity android:name=".ui.top.TopMovieFragment" />
-        <activity android:name=".ui.category.CategoryFragment" />
-        <activity android:name=".ui.favorite.FavoriteFragment" />
-        <activity android:name=".ui.author.AuthorFragment"></activity>
     </application>
 
 </manifest>
